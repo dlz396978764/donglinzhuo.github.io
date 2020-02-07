@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <a href="https://blog.csdn.net/qq_34446253/article/details/51482506" target="_self">引入超链接</a>
+    <script type="text/javascript">
+        document.write("Hello World!")
+        </script>
+    <em>斜体</em>
+    <b>加粗</b>
+    <table >
+        <tr><!-- table row -->
+            <th>alabb</th><!-- table head -->
+            <th>blahh</th>
+            <th>casoo</th>
+        </tr>
+        <tr>
+            <td>1</td><!-- table data -->
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+         <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table h>
+    <ol  type="1"><!-- reversed -->
+        <li><a href="https://zhidao.baidu.com/question/362316877898494372.html">python知识</a></li>
+        <li>milababa</li>
+        <li><table>
+            <tr><!-- table row -->
+                <th>alabb</th><!-- table head -->
+                <th>blahh</th>
+                <th>casoo</th>
+            </tr>
+            <tr>
+                <td>1</td><!-- table data -->
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+             <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+        </table>
+        </li>
+    </ol>
+    <form>
+        <input type="text" value=神奇世界 readonly >
+        <br><br>
+        <input type="text" value="登陆界面"readonly>
+        <br><br>
+        <input type="text" placeholder="用户名" size="40">
+        <br><br>
+        <input type="password" maxlength="9"placeholder="密码">
+        <br><br>
+        自我介绍：<br>
+        <textarea cols="10"rows="10">
+        
+        </textarea>
+        <br>
+        <input type="button"value=清空>
+        <br>
+        <input type="submit"value=确定>
+        <br>
+        <input type="range"value="300" min="-100"max=500 step="100" >音量调节
+        <br>
+        年龄：<input type="number" min="0"max="99">
+        <br>
+        <input type="checkbox">记住密码<!-- 布尔值 -->
+        <br>
+        脑瓜是瓜：<br>
+        <input type="radio" name="a">对
+        <input type="radio" name="a">错<!-- 名字一样即为一道题 -->
+        <br>
+        <select>
+            <option>山西</option>
+            <option>陕西</option>
+            <option>湖北</option>
+        </select>
+        <br>
+        <input type="text" list="1"> <!-- select datalist区别在于data可以自己写一些选项 -->
+        <datalist id="1">
+            <option>北京</option>
+            <option>东京</option>
+            <option>南京</option>
+        </datalist>
+        <input type="email">
+        <input type="tel">
+        <input type="url"><!-- 网址 这三个用于辨别格式 -->
+        <input type="date">
+        <input type="color"><br>
+        <input type="image"src="1.jpg"width=80px>
+        <br>
+        <input type="file" multiple>
+    </form> 
+    <br>
+    <img src="1.jpg"width=80px height="80px"alt="张伟"usemap="#11">   <!-- alt用于查找不到图片时显示出其内容 -->
+    <form>
+        <input type="image" src="1.jpg"width=80px height="80px">
+    </form>
+    <map name="11">
+        <area shape="rect" coords="38,37,55,55" href="https://blog.csdn.net/qq_34446253/article/details/51482506" alt="张伟">
+    </map> <!-- rect顺序左上右下 -->
+    <br>
+    <video src="xixi.mp4" controls width="400"height="400"poster="1.jpg">
+        <source src="xixi.mp4" type="video/mp4"><!-- 类似alt -->
+    </video>
+</
+b
+o
+dy>
+</html>
